@@ -486,3 +486,5 @@ if(ANDROID)
     # TODO: Add more versions
   endif()
 endif()
+
+hunter_default_config(Folly VERSION 2018.04.09.00)
