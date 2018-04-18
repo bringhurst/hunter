@@ -487,4 +487,5 @@ if(ANDROID)
   endif()
 endif()
 
-hunter_default_config(Folly VERSION 2018.04.09.00)
+hunter_default_version(jemalloc VERSION 5.0.1)
+hunter_default_version(Folly VERSION 2018.04.18.00)
