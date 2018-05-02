@@ -489,4 +489,4 @@ endif()
 
 hunter_default_version(jemalloc VERSION 5.0.1)
 hunter_default_version(Folly VERSION 2018.04.20.00)
-hunter_default_version(async_grpc VERSION 2018.5.2.4)
+hunter_default_version(async_grpc VERSION 2018.5.2.5)
