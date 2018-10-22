@@ -38,6 +38,13 @@ hunter_add_version(
     SHA1 1fbf88b7aa5e3a4502571f842ffc0cb4e8c04897
     )
 
+hunter_add_version(
+    PACKAGE_NAME flatbuffers
+    VERSION 1.10.0.li0
+    URL "https://github.com/ambroff/flatbuffers/archive/72832bfb36b8f8b2268448da90e6134f69fba123.zip"
+    SHA1 36a1aad44e8102fda8a4fbc56283912191cd3d45
+    )
+
 hunter_cmake_args(
     flatbuffers
     CMAKE_ARGS
