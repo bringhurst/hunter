@@ -22,7 +22,7 @@ hunter_add_version(
   PACKAGE_NAME Folly
   VERSION "2018.04.20.00"
   URL "https://github.com/ambroff/folly/archive/v2018.04.20.00-hunter.zip"
-  SHA1 e16dc7c5f62762cc7b88b7c9cf8bce3ee963fc18
+  SHA1 ba80452e58f0a302e4556cbb34cda0c3d484bce4
 )
 
 if (APPLE)
