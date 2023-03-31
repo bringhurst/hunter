@@ -130,6 +130,17 @@ hunter_add_version(
     3bfb2352482e6190c377f121b1f760dad767b58d
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    spdlog
+    VERSION
+    "1.11.0"
+    URL
+    "https://github.com/gabime/spdlog/archive/refs/tags/v1.11.0.zip"
+    SHA1
+    4075d3da589d2000cffbd53ea8d31715a64ff8c6
+)
+
 hunter_cmake_args(
     spdlog
     CMAKE_ARGS
