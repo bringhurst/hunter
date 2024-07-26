@@ -1,0 +1,2110 @@
+[
+    {
+        "id": 27955103970,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEI4g",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955103970",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955103970",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:26Z",
+        "started_at": "2024-07-26T09:04:31Z",
+        "completed_at": "2024-07-26T09:05:05Z",
+        "name": "GTest analyze-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:31Z",
+                "completed_at": "2024-07-26T09:04:31Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:31Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:05:02Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:03Z",
+                "completed_at": "2024-07-26T09:05:03Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:03Z",
+                "completed_at": "2024-07-26T09:05:03Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:03Z",
+                "completed_at": "2024-07-26T09:05:03Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:03Z",
+                "completed_at": "2024-07-26T09:05:03Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955103970",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 29,
+        "runner_name": "GitHub Actions 10",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955103653,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEHpQ",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955103653",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955103653",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:26Z",
+        "started_at": "2024-07-26T09:04:30Z",
+        "completed_at": "2024-07-26T09:05:38Z",
+        "name": "GTest android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:30Z",
+                "completed_at": "2024-07-26T09:04:30Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:30Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:05:35Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:38Z",
+                "completed_at": "2024-07-26T09:05:38Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:38Z",
+                "completed_at": "2024-07-26T09:05:38Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:38Z",
+                "completed_at": "2024-07-26T09:05:38Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:36Z",
+                "completed_at": "2024-07-26T09:05:36Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955103653",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 26,
+        "runner_name": "GitHub Actions 8",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955101556,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkD_dA",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955101556",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955101556",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:23Z",
+        "started_at": "2024-07-26T09:04:30Z",
+        "completed_at": "2024-07-26T09:05:13Z",
+        "name": "GTest clang-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:30Z",
+                "completed_at": "2024-07-26T09:04:30Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:30Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:05:12Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:13Z",
+                "completed_at": "2024-07-26T09:05:13Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:13Z",
+                "completed_at": "2024-07-26T09:05:13Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:13Z",
+                "completed_at": "2024-07-26T09:05:13Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:12Z",
+                "completed_at": "2024-07-26T09:05:12Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955101556",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 2,
+        "runner_name": "GitHub Actions 2",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955102500,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEDJA",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955102500",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955102500",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:24Z",
+        "started_at": "2024-07-26T09:04:30Z",
+        "completed_at": "2024-07-26T09:05:12Z",
+        "name": "GTest gcc-7-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:30Z",
+                "completed_at": "2024-07-26T09:04:30Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:30Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:05:10Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:10Z",
+                "completed_at": "2024-07-26T09:05:10Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:10Z",
+                "completed_at": "2024-07-26T09:05:10Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:12Z",
+                "completed_at": "2024-07-26T09:05:12Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:11Z",
+                "completed_at": "2024-07-26T09:05:11Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955102500",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 42,
+        "runner_name": "GitHub Actions 16",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955102869,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEElQ",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955102869",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955102869",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:25Z",
+        "started_at": "2024-07-26T09:04:32Z",
+        "completed_at": "2024-07-26T09:05:17Z",
+        "name": "GTest gcc-8-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:31Z",
+                "completed_at": "2024-07-26T09:04:32Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:38Z",
+                "completed_at": "2024-07-26T09:04:38Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:38Z",
+                "completed_at": "2024-07-26T09:04:38Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:38Z",
+                "completed_at": "2024-07-26T09:04:38Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:38Z",
+                "completed_at": "2024-07-26T09:04:38Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:38Z",
+                "completed_at": "2024-07-26T09:05:13Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:13Z",
+                "completed_at": "2024-07-26T09:05:13Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:13Z",
+                "completed_at": "2024-07-26T09:05:13Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:17Z",
+                "completed_at": "2024-07-26T09:05:17Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:14Z",
+                "completed_at": "2024-07-26T09:05:14Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955102869",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 46,
+        "runner_name": "GitHub Actions 19",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955103289,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEGOQ",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955103289",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955103289",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:25Z",
+        "started_at": "2024-07-26T09:04:31Z",
+        "completed_at": "2024-07-26T09:05:02Z",
+        "name": "GTest gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:31Z",
+                "completed_at": "2024-07-26T09:04:31Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:31Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:02Z",
+                "completed_at": "2024-07-26T09:05:02Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:02Z",
+                "completed_at": "2024-07-26T09:05:02Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:02Z",
+                "completed_at": "2024-07-26T09:05:02Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955103289",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 48,
+        "runner_name": "GitHub Actions 20",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955105771,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEP6w",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955105771",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955105771",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:28Z",
+        "started_at": "2024-07-26T09:04:33Z",
+        "completed_at": "2024-07-26T09:06:09Z",
+        "name": "GTest ios-nocodesign-15-5-arm64-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:41Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:42Z",
+                "completed_at": "2024-07-26T09:04:42Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:42Z",
+                "completed_at": "2024-07-26T09:04:42Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:42Z",
+                "completed_at": "2024-07-26T09:04:42Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:42Z",
+                "completed_at": "2024-07-26T09:04:42Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:43Z",
+                "completed_at": "2024-07-26T09:04:43Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:43Z",
+                "completed_at": "2024-07-26T09:06:04Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:06:05Z",
+                "completed_at": "2024-07-26T09:06:05Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:06:05Z",
+                "completed_at": "2024-07-26T09:06:05Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:06:05Z",
+                "completed_at": "2024-07-26T09:06:05Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:06:05Z",
+                "completed_at": "2024-07-26T09:06:06Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955105771",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 44,
+        "runner_name": "GitHub Actions 17",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955107938,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEYYg",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955107938",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955107938",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2024-07-26T09:04:31Z",
+        "started_at": "2024-07-26T09:04:34Z",
+        "completed_at": "2024-07-26T09:05:36Z",
+        "name": "GTest mingw-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:04:52Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:53Z",
+                "completed_at": "2024-07-26T09:04:53Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:53Z",
+                "completed_at": "2024-07-26T09:04:53Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:53Z",
+                "completed_at": "2024-07-26T09:04:53Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:54Z",
+                "completed_at": "2024-07-26T09:04:54Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:54Z",
+                "completed_at": "2024-07-26T09:04:54Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:54Z",
+                "completed_at": "2024-07-26T09:04:54Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 9,
+                "started_at": "2024-07-26T09:04:54Z",
+                "completed_at": "2024-07-26T09:05:32Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:32Z",
+                "completed_at": "2024-07-26T09:05:32Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:32Z",
+                "completed_at": "2024-07-26T09:05:35Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:35Z",
+                "completed_at": "2024-07-26T09:05:35Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955107938",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 36,
+        "runner_name": "GitHub Actions 13",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955108272,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEZsA",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955108272",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955108272",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:31Z",
+        "started_at": "2024-07-26T09:04:33Z",
+        "completed_at": "2024-07-26T09:06:26Z",
+        "name": "GTest msys-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:04:49Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:49Z",
+                "completed_at": "2024-07-26T09:04:49Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:49Z",
+                "completed_at": "2024-07-26T09:04:49Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:49Z",
+                "completed_at": "2024-07-26T09:04:50Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:51Z",
+                "completed_at": "2024-07-26T09:04:51Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:51Z",
+                "completed_at": "2024-07-26T09:04:51Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:51Z",
+                "completed_at": "2024-07-26T09:04:51Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2024-07-26T09:04:51Z",
+                "completed_at": "2024-07-26T09:06:21Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:06:22Z",
+                "completed_at": "2024-07-26T09:06:22Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:06:22Z",
+                "completed_at": "2024-07-26T09:06:24Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:06:24Z",
+                "completed_at": "2024-07-26T09:06:24Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955108272",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 3,
+        "runner_name": "GitHub Actions 3",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955106172,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkERfA",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955106172",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955106172",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:29Z",
+        "started_at": "2024-07-26T09:04:33Z",
+        "completed_at": "2024-07-26T09:06:22Z",
+        "name": "GTest ninja-vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:48Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:48Z",
+                "completed_at": "2024-07-26T09:04:48Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:48Z",
+                "completed_at": "2024-07-26T09:04:48Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:48Z",
+                "completed_at": "2024-07-26T09:04:49Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:49Z",
+                "completed_at": "2024-07-26T09:04:49Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:49Z",
+                "completed_at": "2024-07-26T09:04:49Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:49Z",
+                "completed_at": "2024-07-26T09:04:49Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2024-07-26T09:04:49Z",
+                "completed_at": "2024-07-26T09:06:16Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:06:16Z",
+                "completed_at": "2024-07-26T09:06:16Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:06:16Z",
+                "completed_at": "2024-07-26T09:06:19Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:06:19Z",
+                "completed_at": "2024-07-26T09:06:19Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955106172",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 24,
+        "runner_name": "GitHub Actions 7",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955106578,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkETEg",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955106578",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955106578",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:29Z",
+        "started_at": "2024-07-26T09:04:33Z",
+        "completed_at": "2024-07-26T09:06:19Z",
+        "name": "GTest nmake-vs-16-2019-win64-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:46Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:47Z",
+                "completed_at": "2024-07-26T09:04:47Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:47Z",
+                "completed_at": "2024-07-26T09:04:47Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:47Z",
+                "completed_at": "2024-07-26T09:04:47Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:47Z",
+                "completed_at": "2024-07-26T09:04:47Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:48Z",
+                "completed_at": "2024-07-26T09:04:48Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:48Z",
+                "completed_at": "2024-07-26T09:04:48Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2024-07-26T09:04:48Z",
+                "completed_at": "2024-07-26T09:06:14Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:06:14Z",
+                "completed_at": "2024-07-26T09:06:14Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:06:15Z",
+                "completed_at": "2024-07-26T09:06:17Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:06:17Z",
+                "completed_at": "2024-07-26T09:06:17Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955106578",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 49,
+        "runner_name": "GitHub Actions 1",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955105484,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEOzA",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955105484",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955105484",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:28Z",
+        "started_at": "2024-07-26T09:04:33Z",
+        "completed_at": "2024-07-26T09:06:17Z",
+        "name": "GTest osx-12-3-arch-universal2-cxx17 macos-12",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:34Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:34Z",
+                "completed_at": "2024-07-26T09:04:44Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:44Z",
+                "completed_at": "2024-07-26T09:04:44Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:45Z",
+                "completed_at": "2024-07-26T09:04:45Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:45Z",
+                "completed_at": "2024-07-26T09:04:45Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:45Z",
+                "completed_at": "2024-07-26T09:04:45Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:45Z",
+                "completed_at": "2024-07-26T09:04:45Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:45Z",
+                "completed_at": "2024-07-26T09:06:13Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:06:13Z",
+                "completed_at": "2024-07-26T09:06:13Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:06:13Z",
+                "completed_at": "2024-07-26T09:06:13Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:06:13Z",
+                "completed_at": "2024-07-26T09:06:14Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:06:14Z",
+                "completed_at": "2024-07-26T09:06:14Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955105484",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 4,
+        "runner_name": "GitHub Actions 4",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955104285,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEKHQ",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955104285",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955104285",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:26Z",
+        "started_at": "2024-07-26T09:04:32Z",
+        "completed_at": "2024-07-26T09:05:05Z",
+        "name": "GTest sanitize-address-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:32Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:36Z",
+                "completed_at": "2024-07-26T09:04:36Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:36Z",
+                "completed_at": "2024-07-26T09:04:36Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:36Z",
+                "completed_at": "2024-07-26T09:04:36Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:36Z",
+                "completed_at": "2024-07-26T09:04:36Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:36Z",
+                "completed_at": "2024-07-26T09:04:36Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:36Z",
+                "completed_at": "2024-07-26T09:05:04Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:04Z",
+                "completed_at": "2024-07-26T09:05:04Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:04Z",
+                "completed_at": "2024-07-26T09:05:04Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:05Z",
+                "completed_at": "2024-07-26T09:05:05Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:04Z",
+                "completed_at": "2024-07-26T09:05:04Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955104285",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 31,
+        "runner_name": "GitHub Actions 11",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955104597,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkELVQ",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955104597",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955104597",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:27Z",
+        "started_at": "2024-07-26T09:04:33Z",
+        "completed_at": "2024-07-26T09:05:08Z",
+        "name": "GTest sanitize-leak-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:33Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:33Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:05:06Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:06Z",
+                "completed_at": "2024-07-26T09:05:06Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:06Z",
+                "completed_at": "2024-07-26T09:05:06Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:08Z",
+                "completed_at": "2024-07-26T09:05:08Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:06Z",
+                "completed_at": "2024-07-26T09:05:06Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955104597",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 45,
+        "runner_name": "GitHub Actions 18",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955105178,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkENmg",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955105178",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955105178",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:28Z",
+        "started_at": "2024-07-26T09:04:32Z",
+        "completed_at": "2024-07-26T09:05:02Z",
+        "name": "GTest sanitize-thread-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:32Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:32Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:04:35Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2024-07-26T09:04:35Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955105178",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 40,
+        "runner_name": "GitHub Actions 15",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955107161,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEVWQ",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955107161",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955107161",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:30Z",
+        "started_at": "2024-07-26T09:04:36Z",
+        "completed_at": "2024-07-26T09:07:41Z",
+        "name": "GTest vs-16-2019-win64-sdk-10-0-18362-0-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:36Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:04:57Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:57Z",
+                "completed_at": "2024-07-26T09:04:57Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:58Z",
+                "completed_at": "2024-07-26T09:04:58Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:58Z",
+                "completed_at": "2024-07-26T09:04:59Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:59Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:07:37Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:07:37Z",
+                "completed_at": "2024-07-26T09:07:37Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:07:37Z",
+                "completed_at": "2024-07-26T09:07:40Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:07:40Z",
+                "completed_at": "2024-07-26T09:07:40Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955107161",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 33,
+        "runner_name": "GitHub Actions 12",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 27955107564,
+        "run_id": 10108681237,
+        "workflow_name": "CI",
+        "head_branch": "main",
+        "run_url": "https://api.github.com/repos/ambroff/hunter/actions/runs/10108681237",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOB4jPkM8AAAAGgkEW7A",
+        "head_sha": "502ec0e32e035d5f5ae8b0debbe2b2c6556e45cd",
+        "url": "https://api.github.com/repos/ambroff/hunter/actions/jobs/27955107564",
+        "html_url": "https://github.com/ambroff/hunter/actions/runs/10108681237/job/27955107564",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2024-07-26T09:04:31Z",
+        "started_at": "2024-07-26T09:04:36Z",
+        "completed_at": "2024-07-26T09:08:11Z",
+        "name": "GTest vs-16-2019-win64-store-10-cxx17 windows-2019",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2024-07-26T09:04:36Z",
+                "completed_at": "2024-07-26T09:04:37Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2024-07-26T09:04:37Z",
+                "completed_at": "2024-07-26T09:04:58Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2024-07-26T09:04:58Z",
+                "completed_at": "2024-07-26T09:04:58Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2024-07-26T09:04:58Z",
+                "completed_at": "2024-07-26T09:04:58Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2024-07-26T09:04:58Z",
+                "completed_at": "2024-07-26T09:04:59Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2024-07-26T09:04:59Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Build hunter_tests Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:05:00Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 9,
+                "started_at": "2024-07-26T09:05:00Z",
+                "completed_at": "2024-07-26T09:08:07Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2024-07-26T09:08:08Z",
+                "completed_at": "2024-07-26T09:08:08Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2024-07-26T09:08:08Z",
+                "completed_at": "2024-07-26T09:08:10Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2024-07-26T09:08:10Z",
+                "completed_at": "2024-07-26T09:08:10Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/ambroff/hunter/check-runs/27955107564",
+        "labels": [
+            "windows-2019"
+        ],
+        "runner_id": 5,
+        "runner_name": "GitHub Actions 5",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    }
+]
