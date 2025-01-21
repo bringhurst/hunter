@@ -94,6 +94,15 @@ hunter_add_version(
   SHA1
   955d39b9fdcacb88b2a8802d1d629b80a8ab28b1
 )
+  
+hunter_add_version(
+    VERSION
+    20240116.2
+    URL
+    "https://github.com/abseil/abseil-cpp/archive/20240116.2.tar.gz"
+    SHA1
+    bb8a766f3aef8e294a864104b8ff3fc37b393210
+)
 
 hunter_cmake_args(
     abseil
