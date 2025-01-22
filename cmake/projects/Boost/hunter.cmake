@@ -525,7 +525,7 @@ hunter_add_version(
     URL
     "https://archives.boost.io/release/1.82.0/source/boost_1_82_0.tar.gz"
     SHA1
-    7694f0b22c5217c4a12cd0fc1b4f74758b9d3fa3
+    0e0d4bdac2628ebeff2c2a63b87514217832839d
 )
 
 hunter_add_version(
