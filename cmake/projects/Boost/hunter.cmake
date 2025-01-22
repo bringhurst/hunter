@@ -523,9 +523,9 @@ hunter_add_version(
     VERSION
     "1.82.0"
     URL
-    "https://boostorg.jfrog.io/artifactory/main/release/1.82.0/source/boost_1_82_0.tar.bz2"
+    "https://archives.boost.io/release/1.82.0/source/boost_1_82_0.tar.gz"
     SHA1
-    5c0736ce8d6f0d21275a1d9407dce48e6decce6a
+    0e0d4bdac2628ebeff2c2a63b87514217832839d
 )
 
 hunter_add_version(
