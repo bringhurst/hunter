@@ -132,7 +132,7 @@ hunter_config(ios_sim VERSION 1.8.2)
 Now package ready to be used:
 ```bash
 > cat CMakeLists.txt 
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
 
 include("cmake/HunterGate.cmake")
 
